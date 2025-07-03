@@ -316,7 +316,7 @@ def interactive_mode() -> None:
 if __name__ == "__main__":
     # EXECUTION MODE SELECTION
     # Default: Run with sample IP addresses
-    # Uncomment the next line for interactive mode instead
+    # Uncomment the interactive mode and comment out main() for full interactive mode
 
-    main()  # Batch processing with sample IPs
-    # interactive_mode()  # Uncomment for interactive single IP queries
+    #main()  # Batch processing with sample IPs
+    interactive_mode()  # Uncomment for interactive single IP queries
