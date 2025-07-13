@@ -1,9 +1,8 @@
-```markdown
 # Python Snippets Collection
 
 ## Overview
 
-This repository contains a collection of standalone Python code snippets for various tasks, including CAPTCHA generation, WHOIS lookups, text-to-speech conversion, and data visualization. Each snippet is designed to be modular, serving as a quick reference or starting point for development projects.
+This repository contains a collection of standalone Python code snippets for various tasks, including CAPTCHA generation, WHOIS lookups, text-to-speech conversion, data visualization, and QR code generation. Each snippet is designed to be modular, serving as a quick reference or starting point for development projects.
 
 ## Contents
 
@@ -15,6 +14,7 @@ The repository includes the following Python snippets:
 - **4__Pie_chart.py**: Creates a pie chart visualizing the popularity of programming languages in 2025 using `matplotlib`, based on data from index.dev.
 - **5__Coloroued_bar_graph.py**: Generates a colored bar graph of programming language popularity in 2025 using `matplotlib`, with data from index.dev.
 - **6__Animated_scatter_plot.py**: Produces an animated scatter plot with randomly moving points using `matplotlib` and `numpy`, demonstrating dynamic visualization.
+- **7__QR_code.py**: Generates a QR code from user-provided data (e.g., filename or URL) using the `qrcode` library, saving it as a PNG with a random RGB background color.
 
 ## Installation
 
@@ -38,21 +38,22 @@ The repository includes the following Python snippets:
    - `pyttsx3`: For text-to-speech conversion.
    - `matplotlib`: For data visualization (pie charts, bar graphs, scatter plots).
    - `numpy`: For numerical operations in animations.
+   - `qrcode`: For QR code generation.
+   - `pillow`: For image processing in QR code generation.
 
 ## Usage
 
 - Browse the snippets in the repository folder.
-- Run individual files using Python (e.g., `python 1__Image_captcha_generator.py`).
+- Run individual files using Python (e.g., `python 7__QR_code.py`).
 - Modify the code as needed to suit your project requirements.
 - Ensure dependencies are installed for each snippet (refer to `requirements.txt`).
 
 ## Notes
 
-- **Version**: 1.1.0 (Updated to reflect added snippets and improved documentation).
+- **Version**: 1.2.0 (Updated to include QR code generator snippet and enhanced documentation).
 - **Locale**: Defaults to US English formatting; adjust for other regions if necessary.
 - **Dependencies**: Some snippets require external libraries; install them as listed in the Installation section.
 
 ## Support
 
 For issues, check the console output for error messages or submit an issue at the [GitHub repository](https://github.com/ThreeFistfulsofFigs/python-snippets).
-```
